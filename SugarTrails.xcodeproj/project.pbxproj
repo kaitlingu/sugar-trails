@@ -15,6 +15,10 @@
 		4CAABFA81C5358FE00207B7B /* SugarTrailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAABFA71C5358FE00207B7B /* SugarTrailsTests.swift */; };
 		4CAABFB31C5358FE00207B7B /* SugarTrailsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAABFB21C5358FE00207B7B /* SugarTrailsUITests.swift */; };
 		4CAABFC41C53944800207B7B /* FoodRec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAABFC31C53944800207B7B /* FoodRec.swift */; };
+		4CAABFC71C539F5500207B7B /* SuagrTrailsLaunch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CAABFC61C539F5500207B7B /* SuagrTrailsLaunch.jpg */; };
+		4CAABFC91C53A4CE00207B7B /* SuagrTrails.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAABFC81C53A4CE00207B7B /* SuagrTrails.png */; };
+		4CAABFCB1C53A5F000207B7B /* usernameBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CAABFCA1C53A5F000207B7B /* usernameBack.jpg */; };
+		4CAABFCD1C53A68100207B7B /* usernameBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAABFCC1C53A68100207B7B /* usernameBack.png */; };
 		544A9AA28D0369052FAE3698 /* Pods_SugarTrails.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A08E2D5EBB5BD074000DAB4 /* Pods_SugarTrails.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +56,10 @@
 		4CAABFB21C5358FE00207B7B /* SugarTrailsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarTrailsUITests.swift; sourceTree = "<group>"; };
 		4CAABFB41C5358FE00207B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CAABFC31C53944800207B7B /* FoodRec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodRec.swift; sourceTree = "<group>"; };
+		4CAABFC61C539F5500207B7B /* SuagrTrailsLaunch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SuagrTrailsLaunch.jpg; sourceTree = "<group>"; };
+		4CAABFC81C53A4CE00207B7B /* SuagrTrails.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SuagrTrails.png; sourceTree = "<group>"; };
+		4CAABFCA1C53A5F000207B7B /* usernameBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = usernameBack.jpg; sourceTree = "<group>"; };
+		4CAABFCC1C53A68100207B7B /* usernameBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usernameBack.png; sourceTree = "<group>"; };
 		648FC94235258465B4D887EF /* Pods-SugarTrails.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugarTrails.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SugarTrails/Pods-SugarTrails.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,14 +123,11 @@
 		4CAABF911C5358FD00207B7B /* SugarTrails */ = {
 			isa = PBXGroup;
 			children = (
+				4CAABFC51C539A9400207B7B /* Images */,
 				4CAABFC21C53937E00207B7B /* Fonts */,
 				4CAABFC11C53937700207B7B /* Storyboard */,
 				4CAABFC01C53937100207B7B /* Swift */,
-				4CAABF921C5358FD00207B7B /* AppDelegate.swift */,
-				4CAABF941C5358FD00207B7B /* ViewController.swift */,
-				4CAABF961C5358FD00207B7B /* Main.storyboard */,
 				4CAABF991C5358FD00207B7B /* Assets.xcassets */,
-				4CAABF9B1C5358FD00207B7B /* LaunchScreen.storyboard */,
 				4CAABF9E1C5358FD00207B7B /* Info.plist */,
 			);
 			path = SugarTrails;
@@ -150,6 +155,8 @@
 			isa = PBXGroup;
 			children = (
 				4CAABFC31C53944800207B7B /* FoodRec.swift */,
+				4CAABF921C5358FD00207B7B /* AppDelegate.swift */,
+				4CAABF941C5358FD00207B7B /* ViewController.swift */,
 			);
 			name = Swift;
 			sourceTree = "<group>";
@@ -157,6 +164,8 @@
 		4CAABFC11C53937700207B7B /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				4CAABF961C5358FD00207B7B /* Main.storyboard */,
+				4CAABF9B1C5358FD00207B7B /* LaunchScreen.storyboard */,
 			);
 			name = Storyboard;
 			sourceTree = "<group>";
@@ -166,6 +175,17 @@
 			children = (
 			);
 			name = Fonts;
+			sourceTree = "<group>";
+		};
+		4CAABFC51C539A9400207B7B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4CAABFC81C53A4CE00207B7B /* SuagrTrails.png */,
+				4CAABFCC1C53A68100207B7B /* usernameBack.png */,
+				4CAABFCA1C53A5F000207B7B /* usernameBack.jpg */,
+				4CAABFC61C539F5500207B7B /* SuagrTrailsLaunch.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		8B45C9DBBC8DCD19057BB85E /* Frameworks */ = {
@@ -286,8 +306,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CAABFC71C539F5500207B7B /* SuagrTrailsLaunch.jpg in Resources */,
 				4CAABF9D1C5358FD00207B7B /* LaunchScreen.storyboard in Resources */,
+				4CAABFC91C53A4CE00207B7B /* SuagrTrails.png in Resources */,
 				4CAABF9A1C5358FD00207B7B /* Assets.xcassets in Resources */,
+				4CAABFCD1C53A68100207B7B /* usernameBack.png in Resources */,
+				4CAABFCB1C53A5F000207B7B /* usernameBack.jpg in Resources */,
 				4CAABF981C5358FD00207B7B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

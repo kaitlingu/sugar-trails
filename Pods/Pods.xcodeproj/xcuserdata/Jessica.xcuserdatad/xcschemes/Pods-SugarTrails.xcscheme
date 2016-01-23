@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '932E3B6714F0336624AED4C0'
+               BlueprintIdentifier = '1115F6AC41E3B1BD10847AEC'
                BlueprintName = 'Pods-SugarTrails'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_SugarTrails.framework'>
