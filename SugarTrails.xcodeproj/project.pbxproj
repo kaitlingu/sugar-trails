@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CAABF561C534DD600207B7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAABF551C534DD600207B7B /* AppDelegate.swift */; };
+		4CAABF581C534DD600207B7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAABF571C534DD600207B7B /* ViewController.swift */; };
+		4CAABF5B1C534DD600207B7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CAABF591C534DD600207B7B /* Main.storyboard */; };
+		4CAABF5D1C534DD600207B7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CAABF5C1C534DD600207B7B /* Assets.xcassets */; };
+		4CAABF601C534DD600207B7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CAABF5E1C534DD600207B7B /* LaunchScreen.storyboard */; };
+		4CAABF6B1C534DD600207B7B /* SugarTrailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAABF6A1C534DD600207B7B /* SugarTrailsTests.swift */; };
+		4CAABF761C534DD700207B7B /* SugarTrailsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAABF751C534DD700207B7B /* SugarTrailsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CAABF671C534DD600207B7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CAABF4A1C534DD600207B7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CAABF511C534DD600207B7B;
+			remoteInfo = SugarTrails;
+		};
+		4CAABF721C534DD600207B7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CAABF4A1C534DD600207B7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CAABF511C534DD600207B7B;
+			remoteInfo = SugarTrails;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CAABF521C534DD600207B7B /* SugarTrails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SugarTrails.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAABF551C534DD600207B7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CAABF571C534DD600207B7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CAABF5A1C534DD600207B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CAABF5C1C534DD600207B7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CAABF5F1C534DD600207B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CAABF611C534DD600207B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CAABF661C534DD600207B7B /* SugarTrailsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SugarTrailsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAABF6A1C534DD600207B7B /* SugarTrailsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarTrailsTests.swift; sourceTree = "<group>"; };
+		4CAABF6C1C534DD600207B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CAABF711C534DD600207B7B /* SugarTrailsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SugarTrailsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAABF751C534DD700207B7B /* SugarTrailsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarTrailsUITests.swift; sourceTree = "<group>"; };
+		4CAABF771C534DD700207B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CAABF4F1C534DD600207B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAABF631C534DD600207B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAABF6E1C534DD600207B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CAABF491C534DD600207B7B = {
+			isa = PBXGroup;
+			children = (
+				4CAABF541C534DD600207B7B /* SugarTrails */,
+				4CAABF691C534DD600207B7B /* SugarTrailsTests */,
+				4CAABF741C534DD700207B7B /* SugarTrailsUITests */,
+				4CAABF531C534DD600207B7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CAABF531C534DD600207B7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CAABF521C534DD600207B7B /* SugarTrails.app */,
+				4CAABF661C534DD600207B7B /* SugarTrailsTests.xctest */,
+				4CAABF711C534DD600207B7B /* SugarTrailsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CAABF541C534DD600207B7B /* SugarTrails */ = {
+			isa = PBXGroup;
+			children = (
+				4CAABF551C534DD600207B7B /* AppDelegate.swift */,
+				4CAABF571C534DD600207B7B /* ViewController.swift */,
+				4CAABF591C534DD600207B7B /* Main.storyboard */,
+				4CAABF5C1C534DD600207B7B /* Assets.xcassets */,
+				4CAABF5E1C534DD600207B7B /* LaunchScreen.storyboard */,
+				4CAABF611C534DD600207B7B /* Info.plist */,
+			);
+			path = SugarTrails;
+			sourceTree = "<group>";
+		};
+		4CAABF691C534DD600207B7B /* SugarTrailsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CAABF6A1C534DD600207B7B /* SugarTrailsTests.swift */,
+				4CAABF6C1C534DD600207B7B /* Info.plist */,
+			);
+			path = SugarTrailsTests;
+			sourceTree = "<group>";
+		};
+		4CAABF741C534DD700207B7B /* SugarTrailsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CAABF751C534DD700207B7B /* SugarTrailsUITests.swift */,
+				4CAABF771C534DD700207B7B /* Info.plist */,
+			);
+			path = SugarTrailsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CAABF511C534DD600207B7B /* SugarTrails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAABF7A1C534DD700207B7B /* Build configuration list for PBXNativeTarget "SugarTrails" */;
+			buildPhases = (
+				4CAABF4E1C534DD600207B7B /* Sources */,
+				4CAABF4F1C534DD600207B7B /* Frameworks */,
+				4CAABF501C534DD600207B7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SugarTrails;
+			productName = SugarTrails;
+			productReference = 4CAABF521C534DD600207B7B /* SugarTrails.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CAABF651C534DD600207B7B /* SugarTrailsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAABF7D1C534DD700207B7B /* Build configuration list for PBXNativeTarget "SugarTrailsTests" */;
+			buildPhases = (
+				4CAABF621C534DD600207B7B /* Sources */,
+				4CAABF631C534DD600207B7B /* Frameworks */,
+				4CAABF641C534DD600207B7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CAABF681C534DD600207B7B /* PBXTargetDependency */,
+			);
+			name = SugarTrailsTests;
+			productName = SugarTrailsTests;
+			productReference = 4CAABF661C534DD600207B7B /* SugarTrailsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CAABF701C534DD600207B7B /* SugarTrailsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAABF801C534DD700207B7B /* Build configuration list for PBXNativeTarget "SugarTrailsUITests" */;
+			buildPhases = (
+				4CAABF6D1C534DD600207B7B /* Sources */,
+				4CAABF6E1C534DD600207B7B /* Frameworks */,
+				4CAABF6F1C534DD600207B7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CAABF731C534DD600207B7B /* PBXTargetDependency */,
+			);
+			name = SugarTrailsUITests;
+			productName = SugarTrailsUITests;
+			productReference = 4CAABF711C534DD600207B7B /* SugarTrailsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CAABF4A1C534DD600207B7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jessica Joseph";
+				TargetAttributes = {
+					4CAABF511C534DD600207B7B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = NFD5C5B8X2;
+					};
+					4CAABF651C534DD600207B7B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = NFD5C5B8X2;
+						TestTargetID = 4CAABF511C534DD600207B7B;
+					};
+					4CAABF701C534DD600207B7B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = NFD5C5B8X2;
+						TestTargetID = 4CAABF511C534DD600207B7B;
+					};
+				};
+			};
+			buildConfigurationList = 4CAABF4D1C534DD600207B7B /* Build configuration list for PBXProject "SugarTrails" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CAABF491C534DD600207B7B;
+			productRefGroup = 4CAABF531C534DD600207B7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CAABF511C534DD600207B7B /* SugarTrails */,
+				4CAABF651C534DD600207B7B /* SugarTrailsTests */,
+				4CAABF701C534DD600207B7B /* SugarTrailsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CAABF501C534DD600207B7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAABF601C534DD600207B7B /* LaunchScreen.storyboard in Resources */,
+				4CAABF5D1C534DD600207B7B /* Assets.xcassets in Resources */,
+				4CAABF5B1C534DD600207B7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAABF641C534DD600207B7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAABF6F1C534DD600207B7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CAABF4E1C534DD600207B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAABF581C534DD600207B7B /* ViewController.swift in Sources */,
+				4CAABF561C534DD600207B7B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAABF621C534DD600207B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAABF6B1C534DD600207B7B /* SugarTrailsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAABF6D1C534DD600207B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAABF761C534DD700207B7B /* SugarTrailsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CAABF681C534DD600207B7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CAABF511C534DD600207B7B /* SugarTrails */;
+			targetProxy = 4CAABF671C534DD600207B7B /* PBXContainerItemProxy */;
+		};
+		4CAABF731C534DD600207B7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CAABF511C534DD600207B7B /* SugarTrails */;
+			targetProxy = 4CAABF721C534DD600207B7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CAABF591C534DD600207B7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CAABF5A1C534DD600207B7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CAABF5E1C534DD600207B7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CAABF5F1C534DD600207B7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CAABF781C534DD700207B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CAABF791C534DD700207B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CAABF7B1C534DD700207B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SugarTrails/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.jessicajoseph.SugarTrails;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CAABF7C1C534DD700207B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SugarTrails/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.jessicajoseph.SugarTrails;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CAABF7E1C534DD700207B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SugarTrailsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.jessicajoseph.SugarTrailsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SugarTrails.app/SugarTrails";
+			};
+			name = Debug;
+		};
+		4CAABF7F1C534DD700207B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SugarTrailsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.jessicajoseph.SugarTrailsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SugarTrails.app/SugarTrails";
+			};
+			name = Release;
+		};
+		4CAABF811C534DD700207B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SugarTrailsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.jessicajoseph.SugarTrailsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SugarTrails;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4CAABF821C534DD700207B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SugarTrailsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.jessicajoseph.SugarTrailsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SugarTrails;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CAABF4D1C534DD600207B7B /* Build configuration list for PBXProject "SugarTrails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAABF781C534DD700207B7B /* Debug */,
+				4CAABF791C534DD700207B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAABF7A1C534DD700207B7B /* Build configuration list for PBXNativeTarget "SugarTrails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAABF7B1C534DD700207B7B /* Debug */,
+				4CAABF7C1C534DD700207B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CAABF7D1C534DD700207B7B /* Build configuration list for PBXNativeTarget "SugarTrailsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAABF7E1C534DD700207B7B /* Debug */,
+				4CAABF7F1C534DD700207B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CAABF801C534DD700207B7B /* Build configuration list for PBXNativeTarget "SugarTrailsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAABF811C534DD700207B7B /* Debug */,
+				4CAABF821C534DD700207B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CAABF4A1C534DD600207B7B /* Project object */;
+}
