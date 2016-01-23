@@ -35,7 +35,7 @@ class FoodRec: UIViewController, UITextFieldDelegate{
             .responseJSON { response in
 
                 if let JSON = response.result.value {
-                    print("JSON: \n \(JSON)")
+                    print("JSON: \n \(JSON["bloodGlucose"]!)")
                 }
         }
         
